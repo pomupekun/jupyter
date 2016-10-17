@@ -1,4 +1,5 @@
-#!bin/bash
+#!bin/sh
 set -e
-exec jupyter notebook
+#jupyter notebook
+echo "test."
 
