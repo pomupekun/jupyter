@@ -49,7 +49,7 @@ c.NotebookApp.contents_manager_class = 'notebook.services.contents.filemanager.F
 # 18. 'set_secure_cookie'への追加の引数(See tornado's) [defualt: {}]
 c.NotebookApp.cookie_options = {}
 # 19. secure cookieに利用するランダムのバイト列(デフォルトでは毎回生成する。読めないような文字列にする事が望ましい) [default: b'']
-c.NotebookApp.cookie_secret = b''
+#c.NotebookApp.cookie_secret = b''
 
 ## The file where the cookie secret is stored.
 #c.NotebookApp.cookie_secret_file = ''
@@ -136,7 +136,7 @@ c.NotebookApp.cookie_secret = b''
 #  platform dependent and determined by the python standard library `webbrowser`
 #  module, unless it is overridden using the --browser (NotebookApp.browser)
 #  configuration option.
-#c.NotebookApp.open_browser = True
+c.NotebookApp.open_browser = False
 
 ## Hashed password to use for web authentication.
 #  
