@@ -1,5 +1,8 @@
 # Configuration file for jupyter-notebook.
 
+# jupyer test.
+
+
 # Application(SingletonConfigurable) configuration
 #------------------------------------------------------------------------------
 # 01. ログの時刻フォーマット [defualt: %(asctime)s]
